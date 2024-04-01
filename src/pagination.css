@@ -1,0 +1,39 @@
+.student-table-container {
+    margin-top: 40px;
+  }
+  
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .student-table th,
+  .student-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+  }
+    
+  
+  .pagination {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .pagination button {
+    margin: 0 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background:  transparent;
+    color: black;
+    outline: none;
+    font-size: 16px;
+    
+  }
+  
+  .pagination button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+  
